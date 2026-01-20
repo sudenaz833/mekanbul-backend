@@ -6,7 +6,10 @@ Bu repo `mekanbul-backend` uygulamasının basit Node.js + Express + Mongoose ba
 
 **Kısa Açıklama:**
 - API, mekan (venue) verilerini yönetir: listeleme, ekleme, görüntüleme, güncelleme ve silme.
-- MongoDB Cloud kullanır. Bağlantı bilgisi: (bak: `app_api/models/db.js`).
+- MongoDB Cloud kullanır.Varsayılan olarak yerel veritabanına (Localhost) bağlanacak şekilde ayarlanmıştır.
+
+Projeyi çalıştırmak için ana dizinde `.env` dosyası oluşturup aşağıdaki satırı ekleyiniz:
+`MONGODB_URI=mongodb://localhost/mekanbul`
 
 **Kurulum**
 ```bash
