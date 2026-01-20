@@ -1,6 +1,5 @@
 # Mekanbul Backend
 
-🔗 **Demo:** [https://mekanbul-backend-bice.vercel.app/](https://mekanbul-backend-bice.vercel.app/)
 
 Bu repo `mekanbul-backend` uygulamasının basit Node.js + Express + Mongoose backend'idir.
 
